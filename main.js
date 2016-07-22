@@ -10,7 +10,7 @@ function animate(){
   if (player.dead){
     //alert("you suck");
   //  window.location.href = "http://giphy.com/gifs/pokemon-thumbs-up-11EREw5fnGrlv2";
-  //  return;
+    return;
   }
   enemy.update();
   enemy.render();
