@@ -21,7 +21,7 @@ $(document).on('touchmove', function(e){
   e.preventDefaul();
   var touchx = e.touches[0].clientx;
   var touchy = e.touches[0].clienty;
-  if (touchx < player.x) player.velx = -5;}
+  if (touchx < player.x) player.velx = -5;
   if (touchx > player.x) player.velx = 5;
   if (touchy < player.y) player.vely = -5;
   if (touchy > player.y) player.vely = 5;

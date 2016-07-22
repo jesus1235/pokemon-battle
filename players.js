@@ -34,9 +34,9 @@ var player = {
 };
 function flipctx(ctx, player){
     ctx.save();
-    ctx.translate(player.x + 50, 0);
+    ctx.translate(player.x + 15, 0);
     ctx.scale(-1,1);
-    ctx.translate(-player.x-50, 0);
+    ctx.translate(-player.x-15, 0);
 }
 
 function restorectx(){
